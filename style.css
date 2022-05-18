@@ -83,3 +83,40 @@ body {
 .btn2:hover {
     background: #273645;
 }
+
+@media only screen and (max-width: 600px) {
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .card1 {
+        width: 250px;
+        gap: 18px;
+        padding: 15px;
+        height: 100%;
+    }
+    .card1 p {
+        padding: 0 20px 0 20px;
+    }
+    .card1 img {
+        margin-top: 30px;
+    }
+    .btn1 {
+        margin-bottom: 30px;
+    }
+    .card2 {
+        width: 250px;
+        gap: 18px;
+        height: 100%;
+    }
+    .card2 p {
+        padding: 0 20px 0 20px;
+    }
+    .card2 img {
+        margin-top: 30px;
+    }
+    .btn2 {
+        margin-bottom: 30px;
+    }
+}
