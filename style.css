@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.seccion {
+    background: rgb(223, 223, 223);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+/*Primer pop up*/
+.card1 {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    width: 432px;
+    height: 60vh;
+    padding: 15px;
+}
+.card1 p {
+    text-align: center;
+    font-weight: 500;
+    padding: 0 50px 0 50px;
+    font-size: 18px;
+}
+.btn1{
+    background: #ed6755;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 5px 18px 1px rgba(237,103,85,0.28);
+    -webkit-box-shadow: 0px 5px 18px 1px rgba(237,103,85,0.28);
+    -moz-box-shadow: 0px 5px 18px 1px rgba(237,103,85,0.28);
+}
+.btn1:hover {
+    background: #e85d4b;
+}
+/*Segundo pop up*/
+
+.card2 {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 60vh;
+    gap: 35px;
+    border-radius: 20px;
+}
+.card2 p {
+    padding: 0 80px 0 80px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+.btn2 {
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 5px 18px 1px rgba(44,62,80,0.28);
+    -webkit-box-shadow: 0px 5px 18px 1px rgba(44,62,80,0.28);
+    -moz-box-shadow: 0px 5px 18px 1px rgba(44,62,80,0.28);
+}
+.btn2:hover {
+    background: #273645;
+}
